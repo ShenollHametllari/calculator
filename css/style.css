@@ -1,0 +1,90 @@
+.card{
+    height: 650px;
+    width: 40%;
+    left: 28%;
+   
+}
+ 
+
+
+.calculator{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: minmax(120px,auto) repeat(5,100px);
+    background-color: #445664;
+    grid-row: 2;
+}
+
+.btn{
+    margin-right: 5px;
+}
+
+
+
+.span-2{
+    grid-column: span 2;
+}
+.output input {
+    background-color: #445664;
+    border: none;
+    color: white;
+}
+.output{
+    height: 100px;
+    background-color: #445664;
+    grid-column: 1 /-1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+
+
+
+form{
+    font-size: 2rem;
+}
+
+
+
+input{
+    outline: none;
+}
+.history{
+    display: grid;
+    justify-content: left;
+    background-color: #445664;
+ 
+}
+
+
+.card-1{
+    height: 650px;
+    width: 32%;;
+    transform: translate(310px, 0px);
+}
+
+li{
+    list-style: none;
+    color: white;
+    font-size: 1.5em;
+}
+
+.btn-cl{
+    height: 10%;
+    transform: translate(100%);
+    position: absolute;
+    bottom: 50px;
+}
+
+
+p{
+    color: white;
+    font-size: 1.5rem;
+}
